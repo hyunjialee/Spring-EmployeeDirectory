@@ -1,5 +1,8 @@
-package io.zipcoder.persistenceapp.employee;
+package io.zipcoder.persistenceapp.model;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Employee {
 
     private int employeeNumber;
